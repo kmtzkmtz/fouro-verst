@@ -231,7 +231,7 @@ svg *{
  }
 
  a:hover{
-    color: #a1a2a3;
+    color: var(--color-red);
  }
 
  h1, h2, h3 ,h4 ,h5, h6{
@@ -250,7 +250,7 @@ svg *{
     color: var(--color-red);
 }
 
-    header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,20 +259,28 @@ svg *{
     margin-left: 235px; margin-right: 235px;
  }
 
-    .header-menu-list{
+.header-menu-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 55px;
  }
 
-    .header-menu-link{
+.header-menu-link{
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
  }
 
-    .header-menu-number{
+.header-menu-number{
     font-weight: 600;
+ }
+
+ .background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 232px;
+    position: fixed;
  }
 
  @media (max-width: 1430px) {
