@@ -326,6 +326,37 @@ header{
   cursor: pointer;
 }
 
+.main_text_2_text{
+  padding-left: 250px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43.5px;
+  letter-spacing: 1%;
+}
+
+.main_text_2_tags{
+  text-align: left;
+  position: relative; 
+  left: 1000px;
+  bottom: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; 
+}
+
+.main_text_2_tags_tag{
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #B2141466;
+  width: 351px ; 
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
 
 
 
