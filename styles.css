@@ -356,6 +356,52 @@ header{
   margin: 20px;
 }
 
+.main_text_3{
+  padding-left: 250px;
+  padding-top: 150px;
+}
+.main_text_3_title{
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 72.5px;
+  letter-spacing: 1%;
+}
+
+.main_text_3_title_text_FOURO{
+  color: var(--color-red);
+}
+
+.main_text_3_text{
+  font-size: 30px;
+  line-height: 43.5px;
+  letter-spacing: 1%;
+  padding-top: 55px;
+}
+
+.main_text_3_text_2{
+  padding-top: 55px;
+}
+
+.main_order_button{
+  background-color: var(--color-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 55px;
+  width: 198px;
+  height: 58px;
+  border: none;
+  border-radius: var(--border-radius-button);
+  font-size: 18px;
+  line-height: 26.1px;
+  letter-spacing: 2%;
+  cursor: pointer;
+}
+
+
+
+
 
 
 
