@@ -261,6 +261,7 @@ svg *{
 
     .header-menu-list{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 55px;
  }
 
@@ -272,4 +273,47 @@ svg *{
 
     .header-menu-number{
     font-weight: 600;
+ }
+
+ @media (max-width: 1430px) {
+    .header {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-left: 150px; margin-right: 150px;
+    }
+ }
+
+ 
+ @media (max-width: 1261px) {
+    .header {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-left: 150px; margin-right: 150px;
+    }
+
+    .header-menu{
+        order: 1;
+        flex-basis: 100%;
+    }
+ }
+
+ @media (max-width: 856px) {
+    .header {
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-left: 100px; margin-right: 100px;
+    }
+
+    .header-menu-list{
+        column-gap: 20px;
+    }
+
+    .header-menu{
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    .header-menu-link {
+        height: 32px;
+    }
  }
