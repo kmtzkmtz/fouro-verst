@@ -218,7 +218,58 @@
     padding-inline: var(--container-padding-x);
  }
 
+a,
+button,
+input,
+textarea,
+svg *{
+    transition-duration: var(--transition-duration);
+}
+
+ a{
+    color: var(--color-light-gray);
+ }
+
+ a:hover{
+    color: #a1a2a3;
+ }
+
  h1, h2, h3 ,h4 ,h5, h6{
     font-weight: 600;
     text-transform: uppercase;
+ }
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 56px;
+    background-color: transparent;
+    border: none;
+    color: var(--color-red);
+}
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 30px;
+    margin-left: 235px; margin-right: 235px;
+ }
+
+    .header-menu-list{
+    display: flex;
+    column-gap: 55px;
+ }
+
+    .header-menu-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+    .header-menu-number{
+    font-weight: 600;
  }
