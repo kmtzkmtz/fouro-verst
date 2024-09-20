@@ -290,7 +290,7 @@ body{
     font-weight: 600;
  }
 
-main{
+.main{
   position: relative;
   bottom: 100px;
 }
